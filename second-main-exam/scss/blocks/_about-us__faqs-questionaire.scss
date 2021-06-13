@@ -1,0 +1,71 @@
+.faqs-questionaire .container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.faqs-questionaire__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.faqs-questionaire__box {
+  display: flex;
+  justify-content: space-between;
+}
+.faqs-questionaire__title-sub {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #495567;
+}
+.faqs-questionaire__span {
+  display: block;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #495567;
+}
+.faqs-questionaire__button-box {
+  margin-bottom: 20px;
+}
+.faqs-questionaire__button {
+  position: relative;
+  left: -0;
+  display: block;
+  width: 100%;
+  max-width: 730px;
+  border: none;
+  padding: 15px;
+  background-color: #f2f2f2;
+
+  margin: 20px auto;
+}
+.faqs-questionaire__button:hover {
+  background-color: #fff4df;
+}
+
+.faqs-questionaire__button-text {
+  position: absolute;
+  z-index: 10;
+  display: none;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+  padding: 50px 5px;
+  background-color: #495567;
+}
+
+.faqs-questionaire__button:active .faqs-questionaire__button-text {
+  display: block;
+  opacity: 0.9;
+}
